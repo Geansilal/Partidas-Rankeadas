@@ -15,8 +15,14 @@ if (saldoRankeadas <= 10){
 } else if(saldoRankeadas >= 51 && saldoRankeadas <= 80){
     nivel = "Ouro";
 } else if(saldoRankeadas >= 81 && saldoRankeadas <= 90){
-    nivel = "Broze";
+    nivel = "Diamante";
+} else if(saldoRankeadas >= 91 && saldoRankeadas <= 100){
+    nivel = "Lendario";
+} else if(saldoRankeadas > 101){
+    nivel = "Imortal";
 }
+
+console.log(nivel)
 
 
 
