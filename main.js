@@ -4,7 +4,7 @@ function balancear(vitoria, derrota){
 }
 
 vitoria = prompt("Digite a quantidade de vitorias ");
-derrota = prompt("digite a quantidade de derrotas ");
+derrota = prompt("Digite a quantidade de derrotas ");
 
 let saldoRankeadas = balancear(vitoria,derrota);
 let nivel = " ";
@@ -26,6 +26,3 @@ if (saldoRankeadas <= 10){
 }
 
 console.log(`O Herói tem o saldo de **${saldoRankeadas}**, e está no nível de Rank **${nivel}** `);
-
-
-
