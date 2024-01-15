@@ -3,7 +3,10 @@ function balancear(vitoria, derrota){
     return balanceamento
 }
 
-let saldoRankeadas = balancear(50,40);
+vitoria = prompt("Digite a quantidade de vitorias ");
+derrota = prompt("digite a quantidade de derrotas ");
+
+let saldoRankeadas = balancear(vitoria,derrota);
 let nivel = " ";
 
 if (saldoRankeadas <= 10){
@@ -22,7 +25,7 @@ if (saldoRankeadas <= 10){
     nivel = "Imortal";
 }
 
-console.log(nivel)
+console.log(`O Herói tem o saldo de **${saldoRankeadas}**, e está no nível de Rank **${nivel}** `);
 
 
 
